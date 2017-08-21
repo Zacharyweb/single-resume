@@ -1,0 +1,25 @@
+@base: #55CBC4;
+.top-deco-container{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:5vw;
+    .top-deco-bar{
+        height: 2.5vw;
+        background-color: @base;
+    }
+    ul{ 
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        display: flex;
+        li{
+            flex:1;
+            height:5vw;
+            border-radius: 50%;
+            background-color:@base;
+        }
+    }
+}

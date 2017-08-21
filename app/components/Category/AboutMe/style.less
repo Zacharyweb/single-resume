@@ -1,0 +1,55 @@
+@base: #55CBC4;
+.about-me-list{
+    position:relative;
+    display:flex;
+    justify-content:space-around;
+    padding:20px 0;
+    border-bottom:1px solid @base;
+    li{ 
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        width:70px;
+        height:70px;
+        box-shadow: 1px 2px #fff, 4px 4px #aee2d9;
+        background-color: @base;
+        color:#fff;
+        text-align:center;
+        .iconfont{
+            margin-bottom:5px; 
+            font-size: 28px;
+        }
+        p{
+            font-size:14px;
+        }
+    }
+}
+.about-me-list::before{
+    content:'';
+    position:absolute;
+    bottom:-24px;
+    left:50%;
+    transform:translateX(-50%);
+    border:12px solid transparent;
+    border-top-color: @base;
+}
+.about-me-list::after{
+    content:'';
+    position:absolute;
+    bottom:-24px;
+    left:50%;
+    transform:translateX(-50%);
+    border:12px solid transparent;
+    bottom:-20px;
+    border-top-color: #fff;
+    z-index: 1;
+}
+.about-me-text{
+    padding-top:15px;
+    p{
+        color:#333;
+        text-align:center;
+        line-height: 1.5;
+    }
+}       
+     

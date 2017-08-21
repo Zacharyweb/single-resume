@@ -1,0 +1,56 @@
+.bottom-nav-container {
+  position: fixed;
+  height: 51px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  transform: translate3d(0, 0, 100px);
+  background-color: #fff;
+  border-top: 1px solid #e6e6e6;
+}
+.bottom-nav-container ul {
+  height: 100%;
+  display: flex;
+}
+.bottom-nav-container ul li {
+  text-align: center;
+}
+.bottom-nav-container ul .nav-item {
+  height: 100%;
+  flex: 1;
+  color: #4d4d4d;
+  line-height: 50px;
+}
+.bottom-nav-container ul .nav-item .iconfont {
+  margin-right: 5px;
+  font-size: 18px;
+}
+.bottom-nav-container ul .nav-item.active {
+  color: #55CBC4;
+}
+.bottom-nav-container ul .music-btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -32px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #55CBC4;
+  color: #fff;
+  border: 2px solid #fff;
+  transition: all 1s;
+  transform-origin: center center;
+}
+.bottom-nav-container ul .music-btn .iconfont {
+  display: inline-block;
+  line-height: 60px;
+  font-size: 34px;
+}
+.bottom-nav-container ul .music-btn-rotate {
+  transform: rotate(180deg);
+}
+.bottom-nav-container.hide {
+  display: none;
+}

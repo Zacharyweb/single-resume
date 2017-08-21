@@ -1,0 +1,55 @@
+@base: #55CBC4;
+.expe-list{
+    height:100%;
+    li{
+        position:relative;
+        flex:1;
+        height:50%;
+        padding-top:5px;
+        padding-left: 40px;
+        p{
+            margin-bottom: 5px;
+        }
+    }
+    .expe-time{
+        font-size:16px; 
+    }
+    .expe-comp{
+       font-size:16px;
+     }
+    .expe-job{
+        font-size:18px;
+    }
+    .dot-line{
+        position:absolute;
+        height:100%;
+        top:0;
+        left:15px;
+    }
+    .iconfont{
+        position:absolute;
+        top:3px;
+        left:1px;
+        font-size:28px;
+    }
+    .expe-item1{
+        color:@base;
+        .expe-comp span{
+            font-size:18px;
+        }
+        .dot-line{
+           border-left:1px dashed @base;
+        }
+    }
+    .expe-item2{
+        background-color:@base;
+        color:#fff;
+        .expe-comp span{
+            font-size:20px;
+        }
+        .dot-line{
+           border-left:2px dashed #fff;
+        }
+    }
+}
+   

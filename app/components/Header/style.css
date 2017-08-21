@@ -1,0 +1,23 @@
+#common-header {
+  background-color: #55CBC4;
+  color: #fff;
+  padding: 15px 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translate3d(0, 0, 100px);
+  z-index: 2;
+}
+#common-header h1 {
+  display: inline;
+  font-size: 20px;
+  line-height: 1;
+}
+#common-header .back-icon {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 10px;
+}

@@ -1,0 +1,1 @@
+export const USERNAME = 'USER_CURRENT_NICK_NAME'
